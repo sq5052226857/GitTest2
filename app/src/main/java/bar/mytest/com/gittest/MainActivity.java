@@ -13,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initView();
+
+        initData();
+    }
+
+    private void initData() {
+        Log.d(TAG,"测试数据");
     }
 
     private void initView() {
